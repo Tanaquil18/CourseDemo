@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pretext>
+    <article>
+        <worksheet margin="1in" bottom="1.25cm" xml:id="Activity-four-proofs">
+            <title>Four Proofs</title>
+
+            <introduction>
+                <p permid="mlu">
+                    Decide which of the following are valid proofs of the following statement:
+                </p>
+
+                <blockquote permid="WOb">
+                    <p permid="EoY">
+                        If <m>a b</m> is an even number, then <m>a</m> or <m>b</m> is even.
+                    </p>
+                </blockquote>
+
+                <p>
+                    Note: You can assume all of the algebra below is correct (because it is).
+                </p>
+            </introduction>
+
+            <exercise workspace=".1in">
+                <p permid="dnh">
+                    Suppose <m>a</m> and <m>b</m> are odd.
+                    That is, <m>a=2k+1</m> and <m>b=2m+1</m> for some integers <m>k</m> and <m>m</m>.
+                    Then
+                    <md permid="GOf">
+                        <mrow>ab \amp =(2k+1)(2m+1)</mrow>
+                        <mrow>\amp =4km+2k+2m+1</mrow>
+                        <mrow>\amp =2(2km+k+m)+1</mrow>
+                    </md>.
+                </p>
+
+                <p permid="Juq">
+                    Therefore <m>ab</m> is odd.
+                </p>
+            </exercise>
+
+            <exercise workspace=".1in" permid="HFd">
+                <p permid="pBz">
+                    Assume that <m>a</m> or <m>b</m> is even - say it is <m>a</m> (the case where <m>b</m> is even will be identical).
+                    That is, <m>a=2k</m> for some integer <m>k</m>.
+                    Then
+                    <md permid="mVo">
+                        <mrow>ab \amp =(2k)b</mrow>
+                        <mrow>\amp =2(kb)</mrow>
+                    </md>.
+                </p>
+
+                <p permid="VII">
+                    Thus <m>ab</m> is even.
+                </p>
+            </exercise>
+
+            <exercise workspace=".1in" permid="nMm">
+                <p permid="BPR">
+                    Suppose that <m>ab</m> is even but <m>a</m> and <m>b</m> are both odd.
+                    Namely, <m>ab = 2n</m>, <m>a=2k+1</m> and <m>b=2j+1</m> for some integers <m>n</m>, <m>k</m>, and <m>j</m>.
+                    Then
+                    <md permid="Tcx">
+                        <mrow>2n \amp =(2k+1)(2j+1)</mrow>
+                        <mrow>2n \amp =4kj+2k+2j+1</mrow>
+                        <mrow>n \amp = 2kj+k+j+\frac{1}{2}</mrow>
+                    </md>.
+                </p>
+
+                <p permid="hXa">
+                    But since <m>2kj+k+j</m> is an integer, this says that the integer <m>n</m> is equal to a non-integer, which is impossible.
+                </p>
+            </exercise>
+
+            <exercise workspace=".1in" permid="TTv">
+                <p permid="Oej">
+                    Let <m>ab</m> be an even number, say <m>ab=2n</m>, and <m>a</m> be an odd number, say <m>a=2k+1</m>.
+                    <md permid="zjG">
+                        <mrow>ab \amp =(2k+1)b</mrow>
+                        <mrow>2n \amp =2kb+b</mrow>
+                        <mrow>2n-2kb\amp =b</mrow>
+                        <mrow>2(n-kb)\amp =b</mrow>
+                    </md>.
+                </p>
+
+                <p permid="uls">
+                    Therefore <m>b</m> must be even.
+                </p>
+            </exercise>
+        </worksheet>
+    </article>
+</pretext>

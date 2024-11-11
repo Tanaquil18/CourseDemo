@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Course Syllabus</title>
+
+  <introduction>
+    <p> Welcome to the course.</p>
+  </introduction>
+
+  <section>
+    <title>Course Information</title>
+    <p> This course is about magic beans.  And about how bad copilot is at writing syllabi.</p>
+  </section>
+
+  <section xml:id="sec-grading">
+    <title>Grading</title>
+    <p>This course has no grades because it is just a demo.</p>
+  </section>
+
+</chapter>
