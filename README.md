@@ -21,7 +21,7 @@ pretext view
 If you want to build just a single activity, say the "Four Proofs" activity, run:
 
 ```bash
-pretext build ./source/activities/four_proofs.ptx
+pretext build ./source/activities/four-proofs.ptx
 ```
 
 This will create a pdf inside the `source/activities` directory.
